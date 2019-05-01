@@ -1,0 +1,37 @@
+html body {
+    background-color: rgba(0,0,0,1.00);
+
+}
+
+.font {
+	font-style: inpact;
+}
+
+.text {
+	text-align: center;
+}
+
+/**
+* Link Styles
+*/
+
+a:link,
+a:visited {
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+a:hover {
+  background: gray;
+  color: gray;
+}
+
+a:active {
+  color: gray;
+}
