@@ -3,80 +3,94 @@
 <style type="text/css">
    body { background: #FFDCDC !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
 </style>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 <head>
+	<!-- favicon.iso goes here-->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 </head>
-<body>
 
+<body>
 <header class="main-header">
 	<h1 class="wordmark">
 		<a class="header-link" href="index.html">
+			<img src="iconset/icon.svg" alt="Logo for the Website" class="img-thumbnail">
 		Matt On Editing
 		</a>
 	</h1>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  	<!-- nav>ul>li*3>a -->
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-	<nav>
-		<ul class="main-nav-list">
-			<li class="main-nav-item">
-				<a class="header-link main-nav-link" href="videos.html">
-					<a href="#" class="text-decoration-none">Videos</a>
+		<nav>
+			<ul class="main-nav-list list-unstyled main-nav-item">
+				<a class="header-link main-nav-link px-5" href="videos.html">
+					Videos
 				</a>
-		</li>
-			<li>
-				<a class="header-link main-nav-link text-decoration-none" href="twitch.html">
+				<a class="header-link main-nav-link px-5" href="twitch.html">
 					Twitch
 				</a>
-		</li>
-		<li>
-				<a class="header-link main-nav-link" href="contact.html">
-					<a href="contact.html" class="text-decoration-none">Contact</a>
+				<a class="header-link main-nav-link px-5" href="contact.html">
+					Contact
 				</a>
-		</li>
-		</ul>
-	</nav>
+			</ul>
+		</nav>
+	</ul>	
+</div>
 </header>
 
-	<!-- nav>ul>li*3>a -->
+<div class="embed-responsive embed-responsive-16by9 px-1 py-5">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7dAIhnBifHo" allowfullscreen style="padding:60px 5px 40px;"></iframe>
+</div>
 
-</header>
 <main class="container">
-
-
 	<section class="user-content">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quas vero cumque qui praesentium inventore totam velit, illum temporibus ratione! Hic provident ad distinctio accusamus. Accusantium tempore illum architecto, est!</p>
-		<p>Sed numquam accusantium expedita ad error quidem quo, necessitatibus! Quo itaque odit iure ad necessitatibus est totam quod officiis, natus, perferendis odio doloribus. Debitis doloremque incidunt nisi, est autem saepe.</p>
-		<p>Optio impedit non commodi enim tempora esse saepe magni, expedita repudiandae nostrum, quam adipisci. Quos laboriosam possimus architecto mollitia magnam, maxime, perferendis eveniet vitae, eius provident tempore rerum voluptatem autem.</p>
+		<p>Matt Collins is a recent graduate from California State University with a Bachelors of Art and is determined to give you their best in making your video, movie, and much more its best.</p>
 	</section>
 </main>
 
-
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg bg-primary">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+</nav>
 
-<footer class="main-footer">
+ <div class="row">
+    <div class="col">
+      <img href="https://www.facebook.com/profile.php?id=100009016464098" src="iconset/Fa.svg" alt="Logo for the Website" class="img-thumbnail">
+    </div>
+    <div class="col">
+      <img href="https://twitter.com/corn_hopper" src="iconset/Tw.svg" alt="Logo for the Website" class="img-thumbnail">
+    </div>
+    <div class="col">
+      <img href="https://www.reddit.com/user/Thefreeman500/" src="iconset/Re.svg" alt="Logo for the Website" class="img-thumbnail">
+    </div>
+    <div class="col">
+      <img href="https://discordapp.com/channels/@me/575525594025164800" src="iconset/Di.svg" alt="Logo for the Website" class="img-thumbnail">
+  </div>
+</div>
+
+<footer class="main-footer py-4">
 	<div class="container">
-		<p>
-		<div class="mx-auto" style="width: 500px;">
- 			 Copyright &copy; 2019 Matthew Collins. All rights reserved.
-		</div>
-		</p>	
 	</div>
+		<p>
+		<small>
+		Copyright &copy; 2019 Matthew Collins. All rights reserved.
+		</small>
+		</p>	
 </footer>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

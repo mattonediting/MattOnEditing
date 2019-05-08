@@ -5,81 +5,107 @@
 </style>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- favicon.iso goes here-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
-
 <header class="main-header">
-	<h1 class="wordmark">
-		<a class="header-link" href="index.html">
-		Matt On Editing
-		</a>
-	</h1>
+  <h1 class="wordmark">
+    <a class="header-link" href="index.html">
+      <img src="iconset/icon.svg" alt="Logo for the Website" class="img-thumbnail">
+    Matt On Editing
+    </a>
+  </h1>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-info">
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- nav>ul>li*3>a -->
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-	<nav>
-		<ul class="main-nav-list list-unstyled">
-			<li class="main-nav-item">
-				<a class="header-link main-nav-link" href="videos.html">
-					Videos
-				</a>
-		</li>
-			<li>
-				<a class="header-link main-nav-link" href="twitch.html">
-					Twitch
-				</a>
-		</li>
-		<li>
-				<a class="header-link main-nav-link" href="contact.html">
-					Contact
-				</a>
-		</li>
-		</ul>
-	</nav>
+    <nav>
+      <ul class="main-nav-list list-unstyled main-nav-item">
+        <a class="header-link main-nav-link px-5" href="videos.html">
+          Videos
+        </a>
+        <a class="header-link main-nav-link px-5" href="twitch.html">
+          Twitch
+        </a>
+        <a class="header-link main-nav-link px-5" href="contact.html">
+          Contact
+        </a>
+      </ul>
+    </nav>
+  </ul> 
+</div>
 </header>
 
-					<div class="video">
-						<li id="videoPlayer">
-							<iframe height="100%" src="https://youtube.com/embed/nT96KnolwAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						</li>
-						</div>
-					<div class="video">
-						<li id="videoPlayer">
-								<iframe height="100%" src="https://youtube.com/embed/VdcqB7f2OLk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-							</li>
-						</div>
-						<div class="video">
-							<li id="videoPlayer">
-								<iframe height="100%" src="https://youtube.com/embed/N4_wLpwxL1Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-							</li>
-						</div>
-						<div class="video">
-							<li id="videoPlayer">
-								<iframe height="100%" src="https://youtube.com/embed/QyjhfQsT12Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-							</li>
-						</div>
-						<div class="video">
-							<li id="videoPlayer">
-								<iframe height="100%" src="https://youtube.com/embed/5881gdNCgqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<nav class="navbar navbar-expand-lg bg-light">
+ <a class="btn btn-primary px-5" href="https://www.youtube.com/playlist?list=PLrGxos-jc8Ge6Vv61wqatVUUVF7PhGP8o" role="button">Click Here for the playlist of past Twitch streams!</a>
+
+<a class="btn btn-primary px-5" href="https://www.youtube.com/channel/UCEU6KrbUqFq5ODvXVrpSUAA/videos?view=0&sort=dd&shelf_id=0" role="button">Click Here for the youtube channel as a whole!</a>
+
+<div class="container">
+  <div class="row">
+    <div class="col py-4 px-4">
+      <iframe height="100%" src="https://youtube.com/embed/nT96KnolwAU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="col py-4 px-4">
+      <iframe height="100%" src="https://youtube.com/embed/VdcqB7f2OLk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+  <div class="container">
+  <div class="row">
+    <div class="col py-4 px-4">
+      <iframe height="100%" src="https://youtube.com/embed/N4_wLpwxL1Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="col py-4 px-4">
+      <iframe height="100%" src="https://youtube.com/embed/QyjhfQsT12Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col py-4 px-4">
+      	<div class="video videoPlayer">
+		<iframe height="100%" src="https://youtube.com/embed/5881gdNCgqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+    </div>
+    <div class="col py-4 px-4">
+      <div class="video videoPlayer">
+		<iframe height="100%" src="https://www.youtube.com/embed/7dAIhnBifHo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<nav class="navbar navbar-expand-lg bg-primary">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+ </nav>
 
-<footer class="main-footer">
+<nav class="navbar navbar-expand-lg bg-primary">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+
+<footer class="main-footer py-4">
 	<div class="container">
 		<p>
 		<small>
@@ -88,3 +114,11 @@
 		</p>	
 	</div>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	
+</script>
+</body>
+</html>

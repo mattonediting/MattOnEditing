@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="icon" transform="translate(-1019 -56)">
+    <rect id="helmet" width="50" height="50" transform="translate(1019 56)" fill="#c00"/>
+    <rect id="eye_slits" data-name="eye slits" width="36.623" height="9.364" transform="translate(1025.688 66.659)"/>
+    <g id="right_eye" data-name="right eye" transform="translate(1025.856 71.495)">
+      <line id="Line_1" data-name="Line 1" y1="4.347" x2="5.685" transform="translate(0)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_2" data-name="Line 2" x2="6.02" y2="4.347" transform="translate(12.373)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_3" data-name="Line 3" x2="7.357" transform="translate(5.351)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_4" data-name="Line 4" x2="18.393" transform="translate(0 4.347)" fill="none" stroke="#fff" stroke-width="1"/>
+      <rect id="pupil" width="7.023" height="4.013" transform="translate(5.518 0.167)" fill="#fff"/>
+    </g>
+    <g id="left_eye" data-name="left eye" transform="translate(1044.086 71.495)">
+      <line id="Line_8" data-name="Line 8" y1="4.347" x2="5.685" transform="translate(0)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_7" data-name="Line 7" x2="6.02" y2="4.347" transform="translate(12.373)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_6" data-name="Line 6" x2="7.357" transform="translate(5.351)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_5" data-name="Line 5" x2="18.393" transform="translate(0 4.347)" fill="none" stroke="#fff" stroke-width="1"/>
+      <rect id="pupil-2" data-name="pupil" width="7.023" height="4.013" transform="translate(5.518 0.167)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -4,11 +4,11 @@ html body {
 }
 
 .font {
-	font-style: inpact;
+  font-style: Impact;
 }
 
 .text {
-	text-align: center;
+  text-align: center;
 }
 
 /**
@@ -20,18 +20,4 @@ a:visited {
   color: gray;
   font-weight: bold;
   text-decoration: none;
-}
-
-a:hover {
-  color: gray;
-  text-decoration: underline;
-}
-
-a:hover {
-  background: gray;
-  color: gray;
-}
-
-a:active {
-  color: gray;
 }
