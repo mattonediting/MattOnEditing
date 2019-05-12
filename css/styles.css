@@ -3,6 +3,66 @@ html body {
 
 }
 
+.navbar-nav {
+  background-color: #91C7F1 !important;
+}
+
+.navbar-expand-lg {
+  background-color: #91C7F1 !important;
+}
+
+.navbar-brand {
+  background-color: #91C7F1 !important; 
+}
+
+.navbar-light {
+  background-color: #91C7F1 !important; 
+}
+
+.navbar {
+    background-color: #91C7F1 !important; 
+}
+
+.navbar-toggler-icon {
+    background-color: #91C7F1 !important; 
+}
+
+.bg-primary {
+  background-color: #91C7F1 !important; 
+}
+
+.navbar-nav {
+  color: #91C7F1 !important;
+}
+
+.navbar-expand-lg {
+  color: #91C7F1 !important;
+}
+
+.navbar-brand {
+  color: #91C7F1 !important; 
+}
+
+.navbar-light {
+ color: #91C7F1 !important; 
+}
+
+.navbar {
+  color: #91C7F1 !important; 
+}
+
+.navbar-toggler-icon {
+  color: #91C7F1 !important; 
+}
+
+.bg-primary {
+  color: #91C7F1 !important; 
+}
+
+.btn-primary {
+ color: #91C7F1 !important; 
+}
+
 .font {
   font-style: Impact;
 }
@@ -10,6 +70,7 @@ html body {
 .text {
   text-align: center;
 }
+
 
 /**
 * Link Styles
@@ -21,3 +82,4 @@ a:visited {
   font-weight: bold;
   text-decoration: none;
 }
+
